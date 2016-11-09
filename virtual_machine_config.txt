@@ -1,0 +1,13 @@
+Virtual machine configurations:
+
+virtualenv --python=python3 venv
+source venv/bin/activate
+
+nohup ##programa## &
+
+ps -aux | grep ##programa## 
+
+kill pid  
+
+How to install a jupyter notebook in a remote computer
+http://laserplasma.ninja/2015/10/16/jupyter-ipython-notebook-on-a-remote-server-tldr/
