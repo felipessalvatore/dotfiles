@@ -11,3 +11,6 @@ kill pid
 
 How to install a jupyter notebook in a remote computer
 http://laserplasma.ninja/2015/10/16/jupyter-ipython-notebook-on-a-remote-server-tldr/
+
+How to install pep8 pluggin on Sublime
+http://cheng.logdown.com/posts/2015/06/14/sublime3-install-python-linters
