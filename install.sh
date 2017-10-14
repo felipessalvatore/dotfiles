@@ -23,3 +23,6 @@ sudo pip3 install nltk
 sudo pip3 install numpy
 sudo pip3 install scipy
 sudo pip3 install matplotlib
+sudo apt-get install cmake
+sudo pip3 install gym
+sudo pip3 install gym[atari]
