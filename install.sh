@@ -26,3 +26,6 @@ sudo pip3 install matplotlib
 sudo apt-get install cmake
 sudo pip3 install gym
 sudo pip3 install gym[atari]
+wget https://repo.skype.com/latest/skypeforlinux-64.deb
+sudo dpkg -i skypeforlinux-64.deb
+sudo apt install -f
