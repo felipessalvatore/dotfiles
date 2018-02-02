@@ -15,7 +15,8 @@ sudo apt install python3
 sudo apt install python3-pip
 pip3 install --upgrade pip3
 sudo apt-get install build-essential python3-dev
-sudo apt-get install Kate
+sudo pip3 install tensorflow
+sudo pip3 install opencv-python
 sudo pip3 install sniffer
 sudo pip3 install pyinotify
 sudo pip3 install jupyter
@@ -25,7 +26,6 @@ sudo pip3 install scipy
 sudo pip3 install matplotlib
 sudo apt-get install cmake
 sudo pip3 install gym
-sudo pip3 install gym[atari]
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo dpkg -i skypeforlinux-64.deb
 sudo apt install -f
