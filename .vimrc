@@ -3,8 +3,6 @@
 
 syntax on
 
-colorscheme badwolf
-
 " Tab Handling
 set tabstop=4
 set softtabstop=4
