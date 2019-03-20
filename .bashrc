@@ -94,6 +94,14 @@ alias l='ls -CF'
 alias c='clear'
 alias gs='git status'
 alias glog='git log --oneline --decorate --graph'
+alias lab='jupyter lab'
+
+# in remote  define 
+# alias lab='jupyter lab --port=9000 --no-browser &'  
+
+alias labdc='ssh -N -f -L 8881:localhost:9000 felsal@doncovim.ime.usp.br'
+alias lablc='ssh -N -f -L 8881:localhost:9000 felsal@lingcomp.ime.usp.br'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
