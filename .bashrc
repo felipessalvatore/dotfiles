@@ -95,7 +95,9 @@ alias c='clear'
 alias gs='git status'
 alias glog='git log --oneline --decorate --graph'
 alias lab='jupyter lab'
-
+alias wf='nmcli dev wifi'
+alias st='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
+# alias salsal='gcloud compute ssh salsal'
 # in remote  define 
 # alias lab='jupyter lab --port=9000 --no-browser'  
 
@@ -126,3 +128,16 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# virtual env
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/felsal/google-cloud-sdk/path.bash.inc' ]; then . '/home/felsal/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/felsal/google-cloud-sdk/completion.bash.inc' ]; then . '/home/felsal/google-cloud-sdk/completion.bash.inc'; fi
